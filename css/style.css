@@ -1,0 +1,55 @@
+
+#pos_container{
+	padding:10px 0;
+}
+.container{
+	margin:20px;
+	width:90%;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+    justify-content: center;
+}
+
+.posi_section{
+	padding:30px;
+	font-family: 'Abel', sans-serif;
+	position:relative;
+	box-shadow:0px 0px 10px #19181838;
+	background-color: #f4f4f4;
+	border-radius:24px;
+	text-align:center;
+	font-size:23px;
+	color: #666;
+	height:22vh;
+}
+
+.bell_icon{
+    padding: 18px;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+	position:absolute;
+	top:-28px;
+	left:160px;
+	box-shadow:0px 0px 10px #19181838;
+}
+
+.bell_icon i{
+	color:gold;
+	font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+
+
+
+.posi_section p{
+	font-family: 'Wire One', sans-serif;
+	font-size:30px;
+}
